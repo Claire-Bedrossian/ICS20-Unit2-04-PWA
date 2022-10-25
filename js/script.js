@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function calculates the area and perimeter of a triangle with user input
  */
- function myButtonClicked() {
+function myButtonClicked() {
   // input
   const base = parseInt(document.getElementById("base-number").value)
   const height = parseInt(document.getElementById("height-number").value)
