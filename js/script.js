@@ -1,13 +1,13 @@
-// Copyright (c) 202X Claire Bedrossian All rights reserved
+// Copyright (c) 2022 Claire Bedrossian All rights reserved
 //
 // Created by: Claire Bedrossian
-// Created on: XXX 202X
+// Created on: Oct 2022
 // This file contains the JS functions for index.html
 
 "use strict"
 
 /**
- * Check servie worker.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS20-Unit2-04-PWA/sw.js", {
